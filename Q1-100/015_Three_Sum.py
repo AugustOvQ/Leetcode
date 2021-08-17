@@ -16,6 +16,7 @@ class Solution:
         Set first number as target, del it from list
         do twosum hashmap to the rest numbers
         avoid duplicated number signed to hashmap
+        
     Complexity:
         Time: O(n^2)
     """

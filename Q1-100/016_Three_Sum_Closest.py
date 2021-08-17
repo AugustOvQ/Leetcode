@@ -1,6 +1,7 @@
 """
 Notes: 
     Sorted pointers, check the closest sum
+    
 Leetcode:
     https://leetcode.com/problems/3sum-closest/discuss/7871/Python-O(N2)-solution
 """
@@ -11,6 +12,7 @@ class Solution:
     """
     Sorted pointers + dict:
         Use sum as the index in the dict, the list as value
+        
     Complexity:
         O(n^2)
     """

@@ -2,6 +2,7 @@
 Notes:
     In real world application, we care about memory, not storage space
     Tey to use `dict`, `enumerate`, `zip` and `set`
+    
 Leetcode:
     https://leetcode.com/problems/two-sum/discuss/737092/Sum-MegaPost-Python3-Solution-with-a-detailed-explanation
 """
@@ -97,7 +98,10 @@ class Solution:
         Two pointers start at `left` most and `right` most, get temp_sum
         if temp_sum==target, return
         if temp_sum>target, move the `right` pointer one step left
-        if temp_sum<target, move the `left` pointer one step right    
+        if temp_sum<target, move the `left` pointer one step right   
+        
+    Complexity:
+        O(n) 
     """
 
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
