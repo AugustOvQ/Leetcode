@@ -6,7 +6,6 @@ Notes:
 Leetcode:
     https://leetcode.com/problems/two-sum/discuss/737092/Sum-MegaPost-Python3-Solution-with-a-detailed-explanation
 """
-
 from typing import List
 
 

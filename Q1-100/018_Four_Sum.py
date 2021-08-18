@@ -5,7 +5,6 @@ Notes:
 Leetcode:
 
 """
-
 from typing import List
 
 

@@ -1,3 +1,9 @@
+"""
+Notes:
+
+Leetcode:
+    
+"""
 import collections
 from typing import Collection, List
 
