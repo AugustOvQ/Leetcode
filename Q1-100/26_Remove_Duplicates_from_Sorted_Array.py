@@ -38,7 +38,7 @@ print(s.removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
 class Solution:
     """
     List to set:
-        Use the non-duplicate property of set
+        Use the non-duplicatable property of set
 
     Complexity:
         O(n)
