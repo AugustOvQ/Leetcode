@@ -98,7 +98,7 @@ class Solution:
         if temp_sum==target, return
         if temp_sum>target, move the `right` pointer one step left
         if temp_sum<target, move the `left` pointer one step right   
-        
+
     Complexity:
         O(n) 
     """

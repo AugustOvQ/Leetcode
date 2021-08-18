@@ -16,7 +16,7 @@ class Solution:
         Set first number as target, del it from list
         do twosum hashmap to the rest numbers
         avoid duplicated number signed to hashmap
-        
+
     Complexity:
         Time: O(n^2)
     """
@@ -36,7 +36,7 @@ class Solution:
             remaining_set = set()
             for index, value in enumerate(nums):
                 remaining = -target - value
-                
+
                 if remaining in seen and remaining not in remaining_set:
                     answer_list.append([target, remaining, value])
                     remaining_set.add(remaining)
@@ -58,11 +58,12 @@ class Solution:
     """
     Sorted three pointers search:
         for each number, do twosum sorted pointers search
-    
+
     Complexity:
         Time: O(n^2)
-    
+
     """
+
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         answer_list = []
         nums.sort()
@@ -73,7 +74,7 @@ class Solution:
             while l < r:
                 s = nums[i] + nums[l] + nums[r]
                 if s < 0:
-                    l +=1 
+                    l += 1
                 elif s > 0:
                     r -= 1
                 else:
@@ -82,9 +83,11 @@ class Solution:
                         l += 1
                     while l < r and nums[r] == nums[r-1]:
                         r -= 1
-                    l += 1; r -= 1
+                    l += 1
+                    r -= 1
         return answer_list
-    
+
+
 s = Solution()
 print("Sorted pointer:")
 print(s.threeSum([-1, 0, 1, 2, -1, -4]))

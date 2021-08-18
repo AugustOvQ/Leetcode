@@ -12,7 +12,7 @@ class Solution:
     """
     Sorted pointers + dict:
         Use sum as the index in the dict, the list as value
-        
+
     Complexity:
         O(n^2)
     """

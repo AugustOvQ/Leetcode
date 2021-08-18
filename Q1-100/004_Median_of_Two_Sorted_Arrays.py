@@ -14,8 +14,8 @@ class Solution:
         merge two arrays by pointers
         store the merged list only till the index of median
         get median
-        
-    
+
+
     """
 
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
