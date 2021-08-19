@@ -1,3 +1,12 @@
+"""
+Notes:
+    The first question about binary search, remember binary search
+    is only applicable in sorted array, so make sure the part is 
+    sorted (see if-else in solution)
+
+Leetcode:
+    https://www.geeksforgeeks.org/python-program-for-binary-search/
+"""
 from typing import List
 
 
